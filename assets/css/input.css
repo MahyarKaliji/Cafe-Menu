@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Oi&display=swap");
+
+@layer base {
+  @font-face {
+    font-family: "Vazir";
+    src: url(../fonts/Vazir.ttf) format("ttf");
+  }
+}
+
+@layer base {
+  @font-face {
+    font-family: "Iran";
+    src: url(../fonts/IranianSans.ttf) format("ttf");
+  }
+}
